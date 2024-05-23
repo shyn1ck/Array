@@ -7,8 +7,6 @@ func main() {
 	fmt.Print("Введите количество элементов массива: ")
 	fmt.Scan(&n)
 	var arr [10]int
-
-	// Ввод элементов массива
 	fmt.Println("Введите элементы массива:")
 	for i := 0; i < n; i++ {
 		fmt.Printf("Элемент %d: ", i+1)
